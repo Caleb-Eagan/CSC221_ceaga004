@@ -17,10 +17,10 @@ class Settings:
         self.bullets_allowed = 50
 
         # Alien settings
-        self.alien_speed = 10
+        self.alien_speed = 1.0
         self.fleet_drop_speed = 10
         # fleet direcction of 1 represents right; -1 represents left.
         self.fleet_direction = 1
 
         # Ship settings
-        self.ship_limit = 1
+        self.ship_limit = 3
